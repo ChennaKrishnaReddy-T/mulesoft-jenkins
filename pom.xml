@@ -19,7 +19,7 @@
 	</properties>
 	
 	
-	
+	 
 
 	<build>
 		<plugins>
@@ -35,16 +35,13 @@
 				<extensions>true</extensions>
 				<configuration>
 					<cloudHubDeployment>
-						<uri>https://anypoint.mulesoft.com</uri>
-						<muleVersion>${mule.version}</muleVersion>
-						<username>${anypoint.username}</username>
-						<password>${anypoint.password}</password>
-						<environment>${env}</environment>
-						<applicationName>${appname}</applicationName>
-						<businessGroup>${business}</businessGroup>
-						<workerType>${vCore}</workerType>
-						<workers>${workers}</workers>
-						<objectStoreV2>true</objectStoreV2>
+						<username>Chenna5054</username>
+						<environment>Sandbox</environment>
+						<workers>1</workers>
+						<workerType>Micro</workerType>
+						<applicationName>MyFirstJenkins</applicationName>
+						<password>Chenna@5054</password>
+						<muleVersion>4.3.0</muleVersion>
 					</cloudHubDeployment>
 				</configuration>
 			</plugin>
